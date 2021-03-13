@@ -1,0 +1,258 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SheHacks'21</title>
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--title-icon-->
+<link rel="shortcut icon" href="{% static 'img/about-model.png' %}">
+<link rel="stylesheet" type="text/css" href="static/css/index.css"/>
+<!--using FontAwesome-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--main-->
+	<section id="main">
+	<!--navigation-->
+	<nav>
+	<!--logo-->
+	<a href="#" class="logo">SheHacks'21</a>
+	<!--menu-->
+	<div class="toggle"></div>
+	<ul class="menu">
+	<li class="active"><a href="#main" >Home</a></li>	
+	<li><a href="{% url 'login' %}">login</a></li>	
+	<li><a href="{% url 'register' %}">register</a></li>			
+	<li><a href="{% url 'contact' %}">Contact</a></li>	
+	</ul>
+	<!--language-->
+	<a href="#" class="lang">En</a>
+	</nav>
+	<!--name-->
+	<div class="name">
+	<!--hello-->
+	<p>WELCOME</p>
+	<!--name-->
+	<h1>The<font color="#17d1ac">Corono</font>Vaccination</h1>
+	<!--details-->
+	<p class="details">this is the site where u can make an appointment for either corona testing or corona
+	vaccination</p>
+	<!--cv button-->
+	<a href="#" class="cv-btn">Scroll Down</a>
+	
+		
+	</div>
+		<!--down arrow-->
+	<div class="black-line" ></div>
+	<!--social-->
+	<div class="social">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>	
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>	
+	</div>
+	
+	</section>
+	<!--about-->
+		<section id="about">
+	<!--text-->
+	<div class="about-text">
+	<h1>About the corona vaccine</h1>
+	<h2>the analysis</h2>
+	<p>The world is in the midst of a COVID-19 pandemic. As WHO and partners work together on the response -- tracking the pandemic, advising on critical interventions, distributing vital medical supplies to those in need--- they are racing to develop and deploy safe and effective vaccines. 
+
+Vaccines save millions of lives each year. Vaccines work by training and preparing the body’s natural defences – the immune system – to recognize and fight off the viruses and bacteria they target. After vaccination, if the body is later exposed to those disease-causing germs, the body is immediately ready to destroy them, preventing illness.</p>
+	<button>View More Details</button>
+	</div>
+	<!--about-model-->
+	<div class="about-model">
+	<img src="https://www.psychologicalscience.org/redesign/wp-content/uploads/2018/04/PAFF_040418_vaccinevialsneedle_post-609x419.jpg" alt="model"/ width="330px" height="400px">	
+	</div>
+	
+	
+	</section>
+	<!--services-->
+	<section id="services">
+	<!--heading-->
+	<div class="s-heading">
+	<h1>Types of services</h1>
+	<p>Here are the services provided by us </p>
+	</div>
+	<!--services-box-container-->
+	<div class="b-container">
+	<!--box-1-->
+	<div class="s-box">
+	<!--img-->
+	<div class="s-b-img">
+		<!--type-->
+		<div class="s-type">Vaccine booking</div>
+		<!--name-->
+		<img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2021/02/26/960625-covid-vaccination-twitter-airnewsalerts.jpg">
+	</div>
+	<!--text-->
+	<div class="s-b-text">
+	<a href="#">Vaccination providers can be reimbursed for vaccine administration fees by the patient’s public or private insurance company or, for uninsured patients, by the Health Resources and Services Administration’s Provider Relief Fund. No one can be denied a vaccine if they are unable to pay a vaccine administration fee, and no one should receive a bill for receiving the vaccine.</a>	
+	</div>
+	</div>
+		<!--box-2-->
+	<div class="s-box">
+	<!--img-->
+	<div class="s-b-img">
+	<!--type-->
+		<div class="s-type">corona checking</div>
+		<!--name-->
+		<img src="https://api.time.com/wp-content/uploads/2020/03/coronavirus-testing.jpg">
+	</div>
+	<!--text-->
+	<div class="s-b-text">
+	<a href="#">Two kinds of tests are available for COVID-19: viral tests and antibody tests.
+
+A viral test tells you if you have a current infection.
+An antibody test might tell you if you had a past infection.</a>	
+	</div>
+	</div>
+		<!--box-3-->
+	<div class="s-box">
+	<!--img-->
+	<div class="s-b-img">
+		<!--type-->
+		<div class="s-type">live chat with doctor</div>
+		<!--name-->
+		<img src="https://www.doctor2u.my/wp-content/uploads/2018/01/D2U_FBCanvas_Live_Chat-1.jpg">
+	</div>
+	<!--text-->
+	<div class="s-b-text">
+	<a href="#">if you are unable to visit then we can connect you with the nearest available doctors via video conferencing</a>	
+	</div>
+	</div>
+	</div>
+	</section>
+	<!--portfolio-->
+	<section id="portfolio">
+	<!--heading-->
+	<h1 class="p-headind">Gallery</h1>
+	<!--portfolio-container-->
+	<div class="p-container">
+	<!--portfolio-box-1-->
+	<div class="p-box">
+	<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>corona</p>	
+	</div>
+	<!--bg-img-->
+	<img src="https://images.indianexpress.com/2020/07/Mumbai-11.jpg">
+		
+	</div>
+	<!--portfolio-box-2-->
+	<div class="p-box">
+		<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>Corona</p>	
+	</div>
+	<!--bg-img-->
+	<img src="https://etimg.etb2bimg.com/thumb/msid-75671267,imgsize-236657,width-800,height-434,overlay-ethealthworld/60-70-population-will-get-corona-if-vaccine-is-not-developed.jpg">
+	</div>
+	<!--portfolio-box-3-->
+	<div class="p-box">
+	<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>Corona</p>	
+	</div>
+	<!--bg-img-->
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGuYuP-cbJb3CPOiA-Zw6lYxmFMLPSZu-aA&usqp=CAU">
+	</div>
+	<!--portfolio-box-4-->
+	<div class="p-box">
+	<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>Corona</p>	
+	</div>
+	<!--bg-img-->	
+	<img src="https://images.hindustantimes.com/img/2021/03/01/550x309/PTI03_01_2021_000197B_1614608891634_1614608907227.jpg">
+	</div>
+	<!--portfolio-box-5-->
+	<div class="p-box">
+	<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>corona</p>	
+	</div>
+	<!--bg-img-->	
+	<img src="https://covid19.telangana.gov.in/wp-content/uploads/2020/03/Corona-Virus-Symptoms-and-Prevention-Tips-724x1024.jpg">
+	</div>
+	<!--portfolio-box-6-->
+	<div class="p-box">
+	<!--text-->
+	<div class="overlay-text">
+	<h1>Go</h1>
+	<p>corona</p>	
+	</div>
+	<!--bg-img-->	
+	<img src="https://c.files.bbci.co.uk/931B/production/_111195673_corona_whatyouneedtodo_without_title-nc.png">
+	</div>
+		
+	</div>
+	</section>
+	<!--Contact-btn-->
+	<section id="contact-btn">
+	<!--heading-------------->
+	<h1 class="c-b-heading">have any questions?</h1>
+	<!--btn-------->
+		<button >Contact Me</button>
+	</section>
+	<!--contact-form-->
+	<section id="contact-form">
+	<form>
+	<!--left-->
+	<div class="contact-left">
+	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+	<!--name-------->
+	<div class="f-name">
+	<font >Name</font>
+	<input type="text" placeholder="Full Name"/>
+	</div>
+	<!--email-------->
+	<div class="f-email">
+	<font >Email</font>
+	<input type="email" placeholder="Example@gmail.com"/>
+	</div>
+	</div>
+	<!--right-->
+	<div class="contact-right">
+	<!--message-->
+	<div class="message">
+	<font >Message</font>
+	<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+	</div>
+	<!--submit-btn------------>
+	<button>submit</button>
+	</div>
+		
+	</form>
+	
+	</section>
+	
+	<script type="text/javascript" src="static/js/JQuery3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		  /*Responsive Navigation*/
+	  $(document).ready(function(){
+	 $('.toggle').click(function(){
+		 $('.toggle').toggleClass('active')
+		 
+		 $('nav ul').toggleClass('active-menu')
+		
+		 
+	 })
+ });
+	
+	</script>
+</body>
+</html>
